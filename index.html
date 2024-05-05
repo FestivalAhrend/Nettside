@@ -8,18 +8,15 @@
         body {
             margin: 0;
             padding: 0;
-            overflow: hidden; /* Skjul eventuelle scrollbars fra body */
-        }
-
-        iframe {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            border: none; /* Fjern ramme rundt iframe */
+            background-image: url('FestivalAhrendtrykketplakat.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh; /* Sett høyden til visningshøyden */
+            overflow-y: auto; /* Tillat vertikal scrolling hvis nødvendig */
         }
     </style>
 </head>
 <body>
-    <iframe src="FestivalAhrendplakat.pdf" frameborder="0" scrolling="yes"></iframe>
 </body>
 </html>
